@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name" : "Meliodas",
+        "tel" : "01695397069",
+        "role" : "boss"
+    },
+    {
+        "id": 2,
+        "name" : "King",
+        "tel" : "01675569854",
+        "role" : "admin"
+    },
+    {
+        "id": 3,
+        "name" : "Gowther",
+        "tel" : "01265956664",
+        "role" : "boss"
+    },
+    {
+        "id": 4,
+        "name" : "Fourr",
+        "tel" : "07999644145",
+        "role" : "boss"
+    },
+    {
+        "id": 5,
+        "name" : "Fiveee",
+        "tel" : "02366655444",
+        "role" : "boss"
+    },
+    {
+        "id": 6,
+        "name" : "Sixxx",
+        "tel" : "01478569999",
+        "role" : "boss"
+    },
+    {
+        "id": 7,
+        "name" : "Sevennn",
+        "tel" : "0389996442",
+        "role" : "boss"
+    }
+]

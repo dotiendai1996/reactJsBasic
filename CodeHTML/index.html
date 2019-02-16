@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleofme.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+      <div class="jumbotron jumbotron-fluid text-center">
+          <div class="container">
+              <h1 class="display-3">Project quản lý người dùng</h1>
+              <p class="lead">Trang giao diện quản lý người dùng</p>
+              <hr class="my-2">
+          </div>
+      </div>
+      <div class="searchForm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                  
+                        <div class="btn-group">
+                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Nhập từ khóa">
+                        <div class="btn btn-info">Tìm kiếm</div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-12">
+                    <hr/>
+                </div>
+                <div class="col-md-9">
+                    <table class="table table-striped table-inverse table-hover">
+                        <thead class="thead-inverse">
+                            <tr>
+                                <th>STT</th>
+                                <th>Tên người dùng</th>
+                                <th>Số điện thoại</th>
+                                <th>Quyền truy cập</th>
+                                <th>Tùy chọn</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">1</td>
+                                    <td>Đỗ Tiến Đại</td>
+                                    <td>0383202620</td>
+                                    <td>Admin</td>
+                                    <td>
+                                       <div class="btn-group">
+                                        <button class="btn btn-primary"><i class="fa fa-edit"></i> Sửa</button>
+                                        <button class="btn btn-danger"><i class="fa fa-close"></i> Xóa</button>
+                                       </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">2</td>
+                                    <td>Đào Thị Ngọc Linh</td>
+                                    <td>0589612562</td>
+                                    <td>Admin</td>
+                                    <td>
+                                       <div class="btn-group">
+                                        <button class="btn btn-primary"><i class="fa fa-edit"></i> Sửa</button>
+                                        <button class="btn btn-danger"><i class="fa fa-close"></i> Xóa</button>
+                                       </div>
+                                    </td>
+                                </tr>                                
+                                <tr>
+                                    <td scope="row">3</td>
+                                    <td>Phạm Thị Phương Thảo</td>
+                                    <td>0383202620</td>
+                                    <td>Admin</td>
+                                    <td>
+                                       <div class="btn-group">
+                                        <button class="btn btn-primary"><i class="fa fa-edit"></i> Sửa</button>
+                                        <button class="btn btn-danger"><i class="fa fa-close"></i> Xóa</button>
+                                       </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                        <td scope="row">4</td>
+                                        <td>Trương Thị Diệu Quỳnh</td>
+                                        <td>0383202620</td>
+                                        <td>Admin</td>
+                                        <td>
+                                           <div class="btn-group">
+                                            <button class="btn btn-primary"><i class="fa fa-edit"></i> Sửa</button>
+                                            <button class="btn btn-danger"><i class="fa fa-close"></i> Xóa</button>
+                                           </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                            <td scope="row">5</td>
+                                            <td>Hoàng Tường Vy</td>
+                                            <td>0383202620</td>
+                                            <td>Admin</td>
+                                            <td>
+                                               <div class="btn-group">
+                                                <button class="btn btn-primary"><i class="fa fa-edit"></i> Sửa</button>
+                                                <button class="btn btn-danger"><i class="fa fa-close"></i> Xóa</button>
+                                               </div>
+                                            </td>
+                                        </tr>
+                            </tbody>
+                    </table>
+                </div>
+                <div class="col-md-3">
+                    <div class="card border-primary">
+                      <div class="card-body">
+                            <h5 class="text-center">Thêm người dùng</h5>
+                            <div class="form-group">
+                            <label for="">Tên người dùng</label>
+                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Nhập tên người dùng">
+                            </div>
+                            <div class="form-group">
+                            <label for="">Số điện thoại</label>
+                            <input type="text"
+                                class="form-control" name="" id="" aria-describedby="helpId" placeholder="Nhập số điện thoại">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Quyền truy cập</label>
+                                <select class="custom-select" name="" id="" required>
+                                    <option selected>Chọn quyền mặc định</option>
+                                    <option value="admin">Admin</option>
+                                    <option value="nhavien">Nhân viên</option>
+                                    <option value="boss">Boss</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary btn-block">Lưu thông tin</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- end search form -->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
